@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Graph &nbsp;Visualizer</h1>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button onclick="addNode()">Add Node</button>
+        <button onclick="enableEdgeMode()">Add Edge</button>
+
+        <select id="algorithm">
+            <option value="bfs">BFS</option>
+            <option value="dfs">DFS</option>
+            <option value="dijkstra">Dijkstra</option>
+        </select>
+
+        <button onclick="runAlgorithm()">Run</button>
+        <button onclick="clearGraph()" class="clear">Clear</button>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="info">
+        <p><b>Instructions:</b></p>
+        <ul>
+            <li>Click "Add Node" to create nodes</li>
+            <li>Click "Add Edge" and select two nodes</li>
+            <li>Select algorithm and click "Run"</li>
+            <li>Click "Clear" to reset the graph</li>
+        </ul>
+    </div>
+
+    <!-- Graph Area -->
+    <div id="graph">
+        <svg id="edges"></svg>
+    </div>
+
+    <!-- Output Section -->
+    <div class="output">
+        <h3>Output:</h3>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

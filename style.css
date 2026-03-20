@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #cfcfce;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: "Michroma", sans-serif;
+}
+
+/* Controls */
+.controls {
+    margin: 15px;
+}
+
+button, select {
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #101010;
+    background-color: rgb(55, 207, 55);
+}
+
+select {
+    background-color: yellow;
+}
+
+button:hover {
+    box-shadow: 0px 2px 5px black;
+}
+
+.clear{
+   background-color: rgb(238, 54, 54);
+}
+
+/* Info Section */
+.info {
+    width: 60%;
+    margin: 8px auto;
+    text-align: left;
+    background: #aec3c5;
+    padding: 8px;
+    padding-left: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+
+.info li {
+    margin-bottom: 6px;
+    line-height: 1;
+}
+
+/* Graph Area */
+#graph {
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 12px ;
+    overflow: hidden; /* ADD THIS */
+    box-shadow: 0 5px 10px black;
+}
+
+#edges {
+    position: absolute;
+    top: 0;          /* ADD THIS */
+    left: 0;         /* ADD THIS */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Nodes */
+.node {
+    width: 40px;
+    height: 40px;
+    background-color: #4da6ff;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.node:hover {
+    transform: scale(1.1);
+}
+
+/* Visited Node */
+.visited {
+    background-color: orange !important;
+}
+
+/* Active Node */
+.active {
+    background-color: red !important;
+}
+
+/* Output Section */
+.output {
+    width: 60%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: 0 2px 5px rgba(0,0,0);
+}
+
