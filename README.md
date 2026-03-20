@@ -1,7 +1,7 @@
 
 ## 📝 Graph Visualizer
 
-# An interactive and educational **Graph Visualizer** web application built using HTML, CSS, and JavaScript.
+An interactive and educational Graph Visualizer web application built using HTML, CSS, and JavaScript.
 It allows users to create nodes, connect edges, and visualize graph traversal with algorithms like BFS, DFS, and Dijkstra, all with step-by-step animations for a clear understanding of graph algorithms.
 ---
 
