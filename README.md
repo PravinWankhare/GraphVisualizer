@@ -50,8 +50,11 @@ It allows users to create nodes, connect edges, and visualize graph traversal wi
 ## Future Enhancements
 
 🗂️ Save graph structure using Local Storage
+
 ✏️ Edit nodes and edges dynamically
+
 ✅ Highlight shortest path with visual distinction
+
 📅 Add weighted/unweighted graph toggle
 
 ---
