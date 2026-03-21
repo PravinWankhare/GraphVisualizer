@@ -18,11 +18,17 @@ It allows users to create nodes, connect edges, and visualize graph traversal wi
 ## 🚀 Features : 
 
 ➕ Create nodes dynamically by clicking in the graph area
+
 🔗 Connect nodes with weighted edges
+
 🧭 Visualize BFS and DFS traversals step by step
+
 📊 Compute shortest paths using Dijkstra’s algorithm
+
 🧹 Clear graph to start fresh
+
 ⚡ Interactive animations for easy understanding of algorithm flow
+
 🎨 Clean, intuitive, and responsive interface
 
 ---
